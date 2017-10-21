@@ -1,0 +1,53 @@
+*{
+  font-family: 'VT323', monospace;
+  font-size: 36px;
+}
+body{
+  background-image: url('https://www.yellowstonepark.com/.image/t_share/MTQ3MzIwMDY3OTg1NTE1OTgy/yellowstone-cutthroat-trout.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #09b3da;
+}
+img{
+  width: 250px;
+}
+input{
+  display: block;
+}
+h1{
+  font-size: 36px;
+  background-image:
+}
+table{
+  border-style: double;
+  margin-top: 350px;
+  margin-left: 33%;
+}
+form{
+  margin-left: 33%;
+}
+tr:nth-child(odd){
+  background-color: lightgrey;
+}
+tr:nth-child(even){
+  background-color: white;
+}
+button{
+  font-size: 18px;
+}
+button:hover{
+  background-color: darkgrey;
+  color: white;
+}
+
+ul{
+  border-style:solid;
+  margin-right: 50px;
+}
+ul button{
+    margin-bottom: 50px;
+}
+ul ul{
+  border-style:dashed;
+  margin-right: 50px;
+}
