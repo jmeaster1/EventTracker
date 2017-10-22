@@ -130,7 +130,7 @@ $(document).ready(function() {
     e.preventDefault();
     var newFish = {
       id: $('input[name="id"]').val(),
-      name: $('input[name="commonName"]').val(),
+      commonName: $('input[name="commonName"]').val(),
       flyUsed: $('input[name="flyUsed"]').val(),
       length: $('input[name="length"]').val(),
       weight: $('input[name="weight"]').val(),
@@ -150,6 +150,7 @@ $(document).ready(function() {
 
     myReq.fail(function(xhr, status, error) {
       console.log('ERROR! Something went wrong!');
+      console.log(newFish);
     });
   });
 });
