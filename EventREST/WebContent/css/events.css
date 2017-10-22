@@ -1,5 +1,5 @@
 *{
-  font-family: 'VT323', monospace;
+  font-family: 'Rancho', cursive;
   font-size: 36px;
 }
 body{
@@ -8,24 +8,27 @@ body{
   background-repeat: no-repeat;
   background-color: #09b3da;
 }
-img{
-  width: 250px;
-}
 input{
   display: block;
 }
 h1{
-  font-size: 36px;
+  font-size: 86px;
   background-image:
 }
 table{
+	width: 500px;
   border-style: double;
   margin-top: 150px;
   margin-left: 33%;
+  text-align: center;
+  background-color: white;
 }
 form{
-	margin-top: 25px;
-  margin-left: 35%;
+	margin-top: 15px;
+	margin-left: 40%;
+}
+#sub{
+	margin-left: 6%;
 }
 tr:nth-child(odd){
   background-color: lightgrey;
@@ -35,6 +38,7 @@ tr:nth-child(even){
 }
 button{
   font-size: 18px;
+  margin-left: 20%;
 }
 button:hover{
   background-color: darkgrey;

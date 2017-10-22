@@ -59,7 +59,7 @@ $(document).ready(function() {
 
         $.ajax({
             type: "DELETE",
-            url: "http://localhost:8080/EventREST/rest/events" + $td2.attr('id'),
+            url: "http://localhost:8080/EventREST/rest/events/" + $td2.attr('id'),
             dataType: "json"
 
           })
@@ -82,7 +82,7 @@ $(document).ready(function() {
 
         var myReq = $.ajax({
           type: "GET",
-          url: "http://localhost:8080/EventREST/rest/events" + fish,
+          url: "http://localhost:8080/EventREST/rest/events/" + fish,
           dataType: "json"
         });
 
@@ -129,7 +129,7 @@ $(document).ready(function() {
   $('#sub').click(function(e) {
     e.preventDefault();
     var newFish = {
-      id: $('input[name="id"]').val(),
+//      id: $('input[name="id"]').val(),
       commonName: $('input[name="commonName"]').val(),
       flyUsed: $('input[name="flyUsed"]').val(),
       length: $('input[name="length"]').val(),
@@ -150,7 +150,7 @@ $(document).ready(function() {
 
     myReq.fail(function(xhr, status, error) {
       console.log('ERROR! Something went wrong!');
-      console.log(newFish);
+//      console.log(newFish);
     });
   });
 });
