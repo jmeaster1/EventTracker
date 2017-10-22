@@ -1,7 +1,4 @@
-# EventTracker
-
-## Jimmy Easter
-
-### Stuff here
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+# FishTracker
+This is a RESTful API that allows the user to track the fish that they catch over the
+course of a season or even a lifetime. The tracker logs a user's catches,
+as well as the type of fish, the fly they used to catch the fish, and a user can also elect to enter length and weight information. This was a fun assignment, and a good chance to practice RESTful services!

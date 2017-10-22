@@ -10,13 +10,14 @@ body{
 }
 input{
   display: block;
+  width: 89%;
 }
 h1{
-  font-size: 86px;
-  background-image:
+  font-size: 100px;
+  margin-left: 25px;
 }
 table{
-	width: 500px;
+	width: 60%;
   border-style: double;
   margin-top: 150px;
   margin-left: 33%;
@@ -25,10 +26,24 @@ table{
 }
 form{
 	margin-top: 15px;
-	margin-left: 40%;
+	margin-left: 33%;
+	
+}
+#container{
+	width: 60%;
+	margin: auto;
+	padding: 2%;
+	background-color: rgba(100, 100, 100, .6);
+}
+#info{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
 }
 #sub{
-	margin-left: 6%;
+	/* margin-left: 50%; */
+	width: 150px;
+	
 }
 tr:nth-child(odd){
   background-color: lightgrey;
