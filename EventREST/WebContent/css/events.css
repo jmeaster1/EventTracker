@@ -10,30 +10,32 @@ body{
 }
 input{
   display: block;
-  width: 89%;
+  width: 74%;
+
 }
 h1{
   font-size: 100px;
   margin-left: 25px;
+  text-shadow: 3px 3px 3px black;
+  color: #ffb473;
 }
 table{
 	width: 60%;
   border-style: double;
-  margin-top: 150px;
-  margin-left: 33%;
+  margin-top: 100px;
+  margin-left: 20%;
   text-align: center;
   background-color: white;
 }
 form{
 	margin-top: 15px;
-	margin-left: 33%;
-	
+	margin-left: 20%;
 }
 #container{
 	width: 60%;
 	margin: auto;
 	padding: 2%;
-	background-color: rgba(100, 100, 100, .6);
+	background-color: rgba(255,226,201, .4);
 }
 #info{
 	width: 100%;
@@ -41,12 +43,13 @@ form{
 	text-align: center;
 }
 #sub{
-	/* margin-left: 50%; */
+	margin: auto;
+	margin-right: 29%;
+	margin-bottom: 50px;
 	width: 150px;
-	
 }
 tr:nth-child(odd){
-  background-color: lightgrey;
+  background-color: #ffb473;
 }
 tr:nth-child(even){
   background-color: white;
@@ -57,7 +60,7 @@ button{
 }
 button:hover{
   background-color: darkgrey;
-  color: white;
+  /* color: white; */
 }
 
 ul{
