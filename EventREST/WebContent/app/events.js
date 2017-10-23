@@ -146,6 +146,7 @@ $(document).ready(function() {
     myReq.done(function(data, status) {
       $('#content').empty();
       getAllEvents();
+      $('#createEvent').children('input').val('')
     });
 
     myReq.fail(function(xhr, status, error) {
