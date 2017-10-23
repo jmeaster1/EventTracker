@@ -55,6 +55,9 @@ $(document).ready(function() {
       deleteButton.text('Delete');
 
       deleteButton.click(function(e) {
+    	  	var sure = confirm("Are you sure you want to DELETE this catch?");
+    	  	if (sure == true) {
+    	  	
         e.preventDefault();
 
         $.ajax({
@@ -71,6 +74,9 @@ $(document).ready(function() {
           .fail(function(xhr, status, error) {
             console.log('ERROR! Something went wrong!');
           });
+    	  	} else {
+    	  	    console.log('user canceled');
+    	  	}
       });
 
       $td.text(data[i].id);
